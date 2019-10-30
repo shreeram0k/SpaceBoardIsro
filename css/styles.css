@@ -11,6 +11,37 @@ body {
     line-height: 1.7;
     color: #c4c3ca;
     background-color: #1f2029;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-blend-mode: multiply;
+
+    background-color: var(--main-color);
+    background-image: linear-gradient(147deg, #651222 0%, #000000 74%);
+
+
+    cursor: url(../planets/cursor-planet.png), auto;
+}
+
+.img-wrapper {
+    overflow: hidden;
+    width: 28%;
+    height: 53%;
+    overflow: hidden;
+    position: absolute;
+    right: 78%;
+    display: none;
+}
+
+.astronaut-img {
+    width: 22rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .img-wrapper {
+        display: block !important;
+    }
+}
+
+.main {
     background: url(../planets/planets-mars-img.width-2000.jpg) no-repeat center center fixed;
     overflow-x: hidden;
     -webkit-transition: all 300ms linear;
@@ -19,8 +50,17 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    cursor: url(../planets/cursor-planet.png), auto;
+    height: 630px;
 }
+
+@media only screen and (max-width: 600px) {
+    .mar-auto {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+
 
 a {
     cursor: pointer;
@@ -518,6 +558,7 @@ body.light .nav__list-item.active-nav a {
 .commet {
     font-size: 14px;
     color: #f0f8ffde;
+
 }
 
 .mission {
@@ -528,6 +569,8 @@ body.light .nav__list-item.active-nav a {
 @media only screen and (max-width: 600px) {
     .mission {
         padding-top: 390px;
+        position: absolute;
+
     }
 
     .col-lg-9 {
@@ -548,6 +591,12 @@ body.light .nav__list-item.active-nav a {
     background: rgba(0, 0, 0, 0.5);
     ;
     border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .stat-card {
+        max-width: 16rem;
+    }
 }
 
 /* arrow in the header page STARTS */
