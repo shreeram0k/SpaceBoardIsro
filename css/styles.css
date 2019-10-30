@@ -606,3 +606,7 @@ body.light .nav__list-item.active-nav a {
         font-size: 0.885em !important;
     }
 }
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
