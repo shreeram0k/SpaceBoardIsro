@@ -81,11 +81,11 @@ a:hover {
     transform: scale(1.2);
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .logo a {
         font-size: 16px;
     }
-}
+} */
 
 .menu-icon {
     height: 30px;
@@ -534,6 +534,7 @@ body.light .nav__list-item.active-nav a {
         max-width: 20%;
     }
 }
+
 .m-color {
     color: var(--main-color);
 }
@@ -541,29 +542,37 @@ body.light .nav__list-item.active-nav a {
 .font-weight-400 {
     font-weight: 400;
 }
+
 .stat-card {
     max-width: 23rem;
-    background: rgba(0,0,0,0.5);; border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    ;
+    border-radius: 15px;
 }
 
 /* arrow in the header page STARTS */
 .h-arrow-positioner {
     position: absolute;
     top: 100vh;
-    top: calc(var(--vh,1vh)*100);
+    top: calc(var(--vh, 1vh)*100);
     transform: translateY(-100%);
     padding-bottom: 28px;
     left: 4.16667vw;
     margin-left: -26px;
 }
+
 @keyframes MoveUpDown {
-    0%, 100% {
-      bottom: 0;
+
+    0%,
+    100% {
+        bottom: 0;
     }
+
     50% {
-      bottom: 30px;
+        bottom: 30px;
     }
-  }
+}
+
 .h-arrow-container {
     position: relative;
     width: 60px;
@@ -571,17 +580,19 @@ body.light .nav__list-item.active-nav a {
     border-radius: 50%;
     border: 1px solid transparent;
     overflow: hidden;
-    animation: MoveUpDown 1s linear infinite;   
+    animation: MoveUpDown 1s linear infinite;
 
 }
+
 .h-arrow-box {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 16px;
     height: 16px;
 }
+
 .h-arrow {
     position: relative;
     display: block;
