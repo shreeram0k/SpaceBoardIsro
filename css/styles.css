@@ -605,6 +605,10 @@ body.light .nav__list-item.active-nav a {
     .social-links {
         font-size: 0.885em !important;
     }
+
+    .tag-line {
+        font-size: 1em;
+    }
 }
 
 .navbar-light .navbar-toggler {
