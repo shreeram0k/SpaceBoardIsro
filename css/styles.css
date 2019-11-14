@@ -673,7 +673,7 @@ body.light .nav__list-item.active-nav a {
 }
 
 .card:hover {
-    box-shadow: 4px 4px 20px rgba(253, 175, 172, 0.81);
+    box-shadow: 0px 0px 14px rgba(227, 174, 180, 0.78);
     transition: all 0.3s ease;
 
 }
