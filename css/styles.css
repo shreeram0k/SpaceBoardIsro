@@ -577,7 +577,7 @@ body.light .nav__list-item.active-nav a {
     .mission {
         padding-top: 390px;
         position: absolute;
-        margin-top: 3em;
+        margin-top: 7em;
 
     }
 
@@ -712,7 +712,7 @@ body.light .nav__list-item.active-nav a {
     .btn-explore {
         position: absolute;
         left: 30%;
-        top: 64%;
+        top: 80%;
         border: none;
         border-radius: 38px;
         width: 36%;
