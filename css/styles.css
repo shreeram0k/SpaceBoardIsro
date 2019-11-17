@@ -603,7 +603,7 @@ body.light .nav__list-item.active-nav a {
 
 @media only screen and (max-width: 600px) {
     .stat-card {
-        max-width: 16rem;
+        max-width: 21rem;
     }
 }
 
